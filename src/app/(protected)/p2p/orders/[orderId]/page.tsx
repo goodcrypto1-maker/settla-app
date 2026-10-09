@@ -284,7 +284,6 @@ export default function TradePage({ params }: PageProps) {
                                                 accountIdentifier={accountIdentifier}
                                                 accountOwner={accountOwner}
                                                 counterpartyName={counterpartyUser?.alias || "Seller"}
-                                                counterpartyRate="99.8%"
                                                 counterpartyKyc={counterpartyUser?.kycStatus === "approved"}
                                                 counterpartyProfileImageUrl={counterpartyUser?.profileImageUrl}
                                             />
@@ -344,7 +343,6 @@ export default function TradePage({ params }: PageProps) {
                                             accountIdentifier={accountIdentifier}
                                             accountOwner={accountOwner}
                                             counterpartyName={counterpartyUser?.alias || "Buyer"}
-                                            counterpartyRate="95.5%"
                                             counterpartyKyc={counterpartyUser?.kycStatus === "approved"}
                                         />
                                         <EvidencePreview 
